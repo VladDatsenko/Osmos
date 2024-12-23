@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<meta name="robots" content="noindex, nofollow">
+<!-- Google Tag Manager -->
+<script type="text/javascript" async="" src="%D0%A0%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%B8%20%D0%BE%D1%82%D0%B4%D0%B5%D0%BB%D0%BA%D0%B0%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80_files/js"></script><script async="" src="%D0%A0%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%B8%20%D0%BE%D1%82%D0%B4%D0%B5%D0%BB%D0%BA%D0%B0%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80_files/gtm.js"></script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NQ53NST');</script>
+    <!-- End Google Tag Manager -->
+<link rel="stylesheet" href="assets/css/style_st.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <title>Проект Дацик</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="assets/css/simplelightbox.min.css">
+    <link rel="stylesheet" href="assets/css/leaflet.min.css">
+    <link rel="stylesheet" href="assets/css/slick.min.css">
+    <link rel="stylesheet" href="assets/css//main.min.css">
+	<style> html { scroll-behavior: smooth;  } </style>
+</head>
+<body>
+
+	<nav class="main-menu--mobile"><div class="menu-close"></div>
+	<li> <a href="#about" class="scroll-to">Ми</a></li>
+	<ul><li><a href="#portfolio" class="scroll-to">Портфоліо</a></li>
+	<li><a href="#whatwedo" class="scroll-to">&lt;Послуги</a></li>
+	<li><a href="#cost" class="scroll-to">&lt;Ціни</a></li>
+	<li><a href="#reviews" class="scroll-to">Відгуки</a></li>
+	<li><a href="#contacts" class="scroll-to">Контакти</a></li>
+	</ul></nav>
+    <div class="popup-overlay"></div>
+    <div id="request-popup" class="popup">
+        <div class="form-wrap">
+            <form action="/demo/thank.php" method="post" id="form1" class="consultation-form">
+			<input type="hidden" name="psub" class="send-type" value="Бесплатный замер и консультация - всплывающая форма.">
+                <div class="title">ЗАЛИШТЕ ЗАЯВКУ
+                    <br>І НАШ КОНСУЛЬТАНТ
+                    <br>ЗВ'ЯЖЕТЬСЯ З ВАМИ</div>
+                <div class="input-wrap">
+                    <label><span>Ваше имя</span>
+                        <input type="text" required="" name="name" placeholder="Например: Алексей ">
+                    </label>
+                </div>
+                <div class="input-wrap">
+                    <label><span>ВАШ НОМЕР ТЕЛЕФОНА</span>
+                        <input type="text" required="" name="phone" placeholder="+38 (___) ___-__-__" class="tel-mask">
+                    </label>
+                </div>
+                <input type="submit" value="ОТРИМАТИ КОНСУЛЬТАЦІЮ" class="button">
+            </form>
+        </div>
+    </div>
+    <div class="section-wrap z-index6">
+        <div class="section page-title">
+            <div class="section-center">
+                <header class="clearfix">
+                    <div class="logo-line"></div>
+                    <img src="assets/images/logo_1.png" alt="" class="logo">
+					<nav class="main-menu"><ul>
+					<b>
+					<li><a href="#about" class="scroll-to" id="abut">Ми</a></li>
+					<li><a href="#portfolio" class="scroll-to" id="prtfolio">Портфоліо</a></li>					
+					<li><a href="#whatwedo" class="scroll-to" id="whatdo">Послуги</a></li>
+					<li> <a href="#cost" class="scroll-to" id="stoimost">Ціни</a></li>
+					<li><a href="#reviews" class="scroll-to" id="otzyvy_kvartiry">Відгуки</a></li>
+					<li><a href="#contacts" class="scroll-to" id="cntacts">Контакти</a></li>
+					</b></ul></nav><b>
+					</b>
+					
+                    <div class="phone"><a href="tel:+380000000000">+38 (068) 698-91-43</a><p></p>
+                        <div data-popup="request" class="request popup-open"><i></i> ДОПОМОГА З ВИБОРОМ МОДЕЛІ </div>
+                    </div>
+                </header>
+                <div class="title-wrap animated zoomIn" style="opacity: 1;">
+                    <h1>Пий чисту воду вже завтра<span></span></h1>
+                    <p>Якісне встановлення</p>
+                    <div class="section-left clearfix"><br>
+                        Вигідні ціни<br>
+                        <br>
+                        Топові моделі
+                    </div>
+                    <div data-popup="request" class="order button popup-open">ОТРИМАТИ КОНСУЛЬТАЦІЮ</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-wrap upper z-index5">
+        <div class="section what-do">
+            <div class="section-center">
+                <h2>ЩО ВИ МОЖЕТЕ У НАС ПРИДБАТИ</h2>
+                <div class="list what-do-slider">
+                    <div class="item"><img src="assets/images/1_1.png" alt="">
+                        <h4>ЗВОРОТНІЙ ОСМОС</h4>
+						<p></p>
+                    </div>
+					<div class="item"><img src="assets/images/2_1.png" alt="">
+                        <h4>ФІЛЬТРА</h4>
+                       <p></p>
+                    </div>
+					
+					 <div class="item"><img src="assets/images/3_1.png" alt="">
+                        <h4>КАРТРИДЖІ</h4>
+                        <p></p>
+                    </div>
+					
+                    <div class="item"><img src="assets/images/4_1.png" alt="">
+                        <h4>ЗМІШУВАЧІ</h4>
+                        <p></p>
+                    </div>
+                    <div class="item"><img src="assets/images/5.png" alt="">
+                        <h4>КРАНИ</h4>
+                     <p></p>
+                    </div>
+                    <div class="item"><img src="assets/images/6_1.png" alt="">
+                        <h4>РЕМОНТНІ КОМПЛЕКТИ</h4>
+                      <p></p>
+                    </div>
+                    <div class="item"><img src="assets/images/7_1.png" alt="">
+                        <h4>ПОМПИ</h4>
+                        <p></p>
+                    </div>                                        
+                    </div>                                           
+                    </div>
+                </div>											
+            </div>
+        
+    
+   
+      
+    <div id="whatwedo" class="section-wrap upper z-index5">
+        <div class="section what-do">
+            <div class="section-center">
+                <h2>ВСІ МОДЕЛІ В НАЯВНОСТІ</h2>
+                <div class="list what-do-slider">
+                    <div class="item"><img src="assets/images/1.png" alt="">
+                        <h4>Потрійний фільтр Ecosoft Absolute FMV3ECO</h4>
+                        <p></p>
+                    </div>
+                    <div class="item"><img src="assets/images/2.png" alt="">
+                        <h4>Потрійний фільтр Ecosoft Standard FMV3ECOSTD</h4>
+                        <p></p>
+                    </div>
+                    <div class="item"><img src="assets/images/3.png" alt="">
+                        <h4>Система зворотного осмосу Ecosoft Standard MO550ECOSTD</h4>
+                        <p></p>
+                    </div>
+                    <div class="item"><img src="assets/images/4.png" alt="">
+                        <h4>Система зворотного осмосу Ecosoft Standard MO650MECOSTD з мінералізатором</h4>
+                        <p></p>
+                    </div>
+                    <div class="item"><img src="assets/images/5_1.png" alt="">
+                        <h4>Система зворотного осмосу Ecosoft Absolute MO675MECO New</h4>
+                        <p></p>
+                    </div>
+                    <div class="item"><img src="assets/images/6.png" alt="">
+                        <h4>Система зворотного осмосу Ecosoft P`Ure Balance MO675MPUREBALECO </h4>
+                        <p></p>
+                    </div>
+                    <div class="item"><img src="assets/images/7.png" alt="">
+                        <h4>Система зворотного осмосу Ecosoft P'Ure Alkafuse MO675ALCPUREECO</h4>
+                        <p></p>
+                    </div>
+                    <div class="item"><img src="assets/images/8.png" alt="">
+                        <h4>Ecosoft Pure AquaCalcium Mint MO675PSMACECO</h4>
+                        <p></p>
+                    </div>
+                    <div class="item"><img src="assets/images/9.png" alt="">
+                        <h4>Система зворотного осмосу Ecosoft Robust Mini</h4>
+                        <p></p>
+                    </div>
+                    <div class="item"><img src="assets/images/10.png" alt="">
+                        <h4>Фільтр Ecosoft RObust 1500ECO</h4>
+                        <p></p>
+                    </div>
+                    <div class="item"><img src="assets/images/11.png" alt="">
+                        <h4>Система зворотного осмосу BWT THERO 90 812827</h4>
+                        <p></p>
+                    </div>
+                    <div class="item"><img src="assets/images/12.png" alt="">
+                        <h4>Комплект з 4 картриджів для фільтра зворотного осмосу Ecosoft</h4>
+                        <p>
+                        </p>
+                    </div>
+                </div>											
+            </div>
+        </div>
+    </div>
+   
+     
+    <div id="portfolio" class="section-wrap upper">
+        <div class="section projects">
+            <div class="section-center">
+                <h2>НАША ПРОДУКЦІЯ</h2>
+                <ul class="tabs-nav">
+                    <!--li.active(data-tab="1") ПРОцесс работы-->
+                    <li data-tab="2" class="active">СИСТЕМИ ЗВОРОТНЬОГО ОСМОСУ</li>
+                    <li data-tab="3">ЗМІШУВАЧІ</li>
+                </ul>
+                
+                <div id="tab-2" class="tab clearfix">
+                    <a href="assets/images/1.jpg" class="tab-item">
+                        <div style="background: url(assets/images/1.jpg) center center / cover no-repeat" class="image"></div>
+                    </a>
+                    <a href="assets/images/2.jpg" class="tab-item">
+                        <div style="background: url(assets/images/2.jpg) center center / cover no-repeat" class="image"></div>
+                    </a>
+                    <a href="assets/images/3.jpg" class="tab-item">
+                        <div style="background: url(assets/images/3.jpg) center center / cover no-repeat" class="image"></div>
+                    </a>
+                    <a href="assets/images/4.jpg" class="tab-item">
+                        <div style="background: url(assets/images/4.jpg) center center / cover no-repeat" class="image"></div>
+                    </a>
+                    <a href="assets/images/5.jpg" class="tab-item">
+                        <div style="background: url(assets/images/5.jpg) center center / cover no-repeat" class="image"></div>
+                    </a>
+                    <a href="assets/images/6.jpg" class="tab-item">
+                        <div style="background: url(assets/images/6.jpg) center center / cover no-repeat" class="image"></div>
+                    </a>
+                    <a href="assets/images/7.jpg" class="tab-item">
+                        <div style="background: url(assets/images/7.jpg) center center / cover no-repeat" class="image"></div>
+                    </a>
+                    <a href="assets/images/8.jpg" class="tab-item">
+                        <div style="background: url(assets/images/8.jpg) center center / cover no-repeat" class="image"></div>
+                    </a>
+                    <a href="assets/images/9.jpg" class="tab-item">
+                        <div style="background: url(assets/images/9.jpg) center center / cover no-repeat" class="image"></div>
+                    </a>
+                    <a href="assets/images/10.jpg" class="tab-item">
+                        <div style="background: url(assets/images/10.jpg) center center / cover no-repeat" class="image"></div>
+                    </a>
+                    <a href="assets/images/11.jpg" class="tab-item">
+                        <div style="background: url(assets/images/11.jpg) center center / cover no-repeat" class="image"></div>
+                    </a>
+                    <a href="assets/images/12.jpg" class="tab-item">
+                        <div style="background: url(assets/images/12.jpg) center center / cover no-repeat" class="image"></div>
+                    </a>
+                    <a href="assets/images/13.jpg" class="tab-item">
+                        <div style="background: url(assets/images/13.jpg) center center / cover no-repeat" class="image"></div>
+                    </a>
+                    <a href="assets/images/14.jpg" class="tab-item">
+                        <div style="background: url(assets/images/14.jpg) center center / cover no-repeat" class="image"></div>
+                    </a>
+                    <a href="assets/images/15.jpg" class="tab-item">
+                        <div style="background: url(assets/images/15.jpg) center center / cover no-repeat" class="image"></div>
+                    </a>
+                    <a href="assets/images/16.jpg" class="tab-item">
+                        <div style="background: url(assets/images/16.jpg) center center / cover no-repeat" class="image"></div>
+                    </a>
+                    <a href="assets/images/17.jpg" class="tab-item">
+                        <div style="background: url(assets/images/17.jpg) center center / cover no-repeat" class="image"></div>
+                    </a>
+                    <a href="assets/images/18.jpg" class="tab-item">
+                        <div style="background: url(assets/images/18.jpg) center center / cover no-repeat" class="image"></div>
+                    </a>
+                    <a href="assets/images/19.jpg" class="tab-item">
+                        <div style="background: url(assets/images/19.jpg) center center / cover no-repeat" class="image"></div>
+                    </a>
+                    <a href="assets/images/20.jpg" class="tab-item">
+                        <div style="background: url(assets/images/20.jpg) center center / cover no-repeat" class="image"></div>
+                    </a>
+                    <a href="assets/images/21.jpg" class="tab-item">
+                        <div style="background: url(assets/images/21.jpg) center center / cover no-repeat" class="image"></div>
+                    </a>
+                    <a href="assets/images/22.jpg" class="tab-item">
+                        <div style="background: url(assets/images/22.jpg) center center / cover no-repeat" class="image"></div>
+                    </a>
+                    <a href="assets/images/23.jpg" class="tab-item">
+                        <div style="background: url(assets/images/23.jpg) center center / cover no-repeat" class="image"></div>
+                    </a>
+					<a href="assets/images/24.jpg" class="tab-item">
+                        <div style="background: url(assets/images/24.jpg) center center / cover no-repeat" class="image"></div>
+                    </a>
+                <a href="assets/css/images/25.jpg" class="tab-item">
+                        <div style="background: url(assets/images/25.jpg) center center / cover no-repeat" class="image"></div>
+                    </a>
+				<a href="assets/images/26.jpg" class="tab-item">
+                        <div style="background: url(assets/images/26.jpg) center center / cover no-repeat" class="image"></div>
+                    </a>
+				<a href="assets/images/27.jpg" class="tab-item">
+                        <div style="background: url(assets/images/27.jpg) center center / cover no-repeat" class="image"></div>
+                    </a>
+				<a href="assets/images/28.jpg" class="tab-item">
+                        <div style="background: url(assets/images/28.jpg) center center / cover no-repeat" class="image"></div>
+                    </a>
+					<a href="assets/images/29.jpg" class="tab-item">
+                        <div style="background: url(assets/images/29.jpg) center center / cover no-repeat" class="image"></div>
+                    </a>
+					<a href="assets/images/30.jpg" class="tab-item">
+                        <div style="background: url(assets/images/30.jpg) center center / cover no-repeat" class="image"></div>
+                    </a>
+					<a href="assets/images/31.jpg" class="tab-item">
+                        <div style="background: url(assets/images/31.jpg) center center / cover no-repeat" class="image"></div>
+                    </a>
+					<a href="assets/images/32.jpg" class="tab-item">
+                        <div style="background: url(assets/images/32.jpg) center center / cover no-repeat" class="image"></div>
+                    </a>
+					
+				</div>
+			
+                <div id="tab-3" class="tab clearfix">
+                    <a href="assets/images/1_1.jpg" class="tab-item">
+                        <div style="background: url(assets/images/1_1.jpg) center center / cover no-repeat" class="image"></div>
+                    </a>
+                    <a href="assets/images/2_1.jpg" class="tab-item">
+                        <div style="background: url(assets/images/2_1.jpg) center center / cover no-repeat" class="image"></div>
+                    </a>
+                    <a href="assets/images/3_1.jpg" class="tab-item">
+                        <div style="background: url(assets/images/3_1.jpg) center center / cover no-repeat" class="image"></div>
+                    </a>
+                    <a href="assets/images/4_1.jpg" class="tab-item">
+                        <div style="background: url(assets/images/4_1.jpg) center center / cover no-repeat" class="image"></div>
+                    </a>
+                    <a href="assets/images/5_1.jpg" class="tab-item">
+                        <div style="background: url(assets/images/5_1.jpg) center center / cover no-repeat" class="image"></div>
+                    </a>
+                    <a href="assets/images/6_1.jpg" class="tab-item">
+                        <div style="background: url(assets/images/6_1.jpg) center center / cover no-repeat" class="image"></div>
+                    </a>
+                    <a href="assets/images/7_1.jpg" class="tab-item">
+                        <div style="background: url(assets/images/7_1.jpg) center center / cover no-repeat" class="image"></div>
+                    </a>
+                    <a href="assets/images/8_1.jpg" class="tab-item">
+                        <div style="background: url(assets/images/8_1.jpg) center center / cover no-repeat" class="image"></div>
+                    </a>
+                    <a href="assets/images/9_1.jpg" class="tab-item">
+                        <div style="background: url(assets/images/9_1.jpg) center center / cover no-repeat" class="image"></div>
+                    </a>
+                    <a href="assets/images/10_1.jpg" class="tab-item">
+                        <div style="background: url(assets/images/10_1.jpg) center center / cover no-repeat" class="image"></div>
+                    </a>
+                    <a href="assets/images/11_1.jpg" class="tab-item">
+                        <div style="background: url(assets/images/11_1.jpg) center center / cover no-repeat" class="image"></div>
+                    </a>
+                    <a href="assets/images/12_1.jpg" class="tab-item">
+                        <div style="background: url(assets/images/12_1.jpg) center center / cover no-repeat" class="image"></div>
+                    </a>
+                    <a href="assets/images/13_1.jpg" class="tab-item">
+                        <div style="background: url(assets/images/13_1.jpg) center center / cover no-repeat" class="image"></div>
+                    </a>
+                    <a href="assets/images/14_1.jpg" class="tab-item">
+                        <div style="background: url(assets/images/14_1.jpg) center center / cover no-repeat" class="image"></div>
+                    </a>
+                    <a href="assets/images/15_1.jpg" class="tab-item">
+                        <div style="background: url(assets/images/15_1.jpg) center center / cover no-repeat" class="image"></div>
+                    </a>
+                    <a href="assets/images/16_1.jpg" class="tab-item">
+                        <div style="background: url(assets/images/16_1.jpg) center center / cover no-repeat" class="image"></div>
+                    </a>
+                    <a href="assets/images/17_1.jpg" class="tab-item">
+                        <div style="background: url(assets/images/17_1.jpg) center center / cover no-repeat" class="image"></div>
+                    </a>
+                    <a href="assets/images/18_1.jpg" class="tab-item">
+                        <div style="background: url(assets/images/18_1.jpg) center center / cover no-repeat" class="image"></div>
+                    </a>
+                    <a href="assets/images/19_1.jpg" class="tab-item">
+                        <div style="background: url(assets/images/19_1.jpg) center center / cover no-repeat" class="image"></div>
+                    </a>	
+                </div>
+            </div>
+       
+        </div>
+    </div>
+	
+	
+	 <div id="consultation" class="section-wrap upper z-index10">
+        <div class="section insurance">
+            <div class="section-center clearfix">
+                <div class="text">
+                    <h3>ГАРАНТІЯ В ПОДАРУНОК!</h3>
+                    <p>Фільтри Ecosoft — це безпечний, неперервний, надійний доступ до води питної якості на вашій кухні!  </p>
+                    <div data-popup="request" class="button popup-open">Дізнатись більше</div>
+                </div>
+            </div>
+        </div>
+    </div>
+	
+	
+
+
+	
+    <div id="cost" class="section-wrap upper z-index8">
+        <div class="section find-cost">
+            <div class="section-center clearfix">
+               
+                <h2>6 ПРИЧИН ПРИДБАТИ СИСТЕМУ<br>ЗВОРОТЬОГО ОСМОСУ:</h2>
+                <p class="sub"><br>Зворотний осмос – це ваш доступ до кришталево чистої та безпечної води вдома.<br>Забудьте про хлор, важкі метали та накип – лише чистий смак і здоров'я. Інвестуйте в якість життя вже сьогодні!:</p>
+                <div class="list">
+                    <div class="item">
+                        <h3><span>1</span>Чиста питна вода</h3>
+                        <p>Зворотний осмос ефективно очищує воду від бактерій, вірусів, важких металів, хімічних домішок і навіть солей, забезпечуючи чисту та безпечну воду для вашого здоров’я</p>
+                    </div>
+                    <div class="item">
+                        <h3><span>2</span>Поліпшення смаку і запаху</h3>
+                        <p> Вода після зворотного осмосу позбавляється неприємного присмаку хлору та інших домішок, стає кришталево чистою і смачною</p>
+                    </div>
+                    <div class="item">
+                        <h3><span>3</span>Захист побутової техніки</h3>
+                        <p>Очищена від солей жорсткості вода продовжує термін служби чайників, кавоварок, пароварок та іншої техніки, запобігаючи утворенню накипу</p>
+                    </div>
+                    <div class="item">
+                        <h3><span>4</span>Економія на покупці води</h3>
+                        <p>Встановивши систему зворотного осмосу, ви можете відмовитися від покупки бутильованої води, що суттєво зменшить витрати</p>
+                    </div>
+                    <div class="item">
+                        <h3><span>5</span>Простота використання</h3>
+                        <p>Сучасні системи зворотного осмосу легко монтуються під мийку, не займають багато місця і забезпечують постійний доступ до чистої води</p>
+                    </div>
+                    <div class="item">
+                        <h3><span>6</span>Довговічність і надійність</h3>
+                        <p>Система зворотного осмосу – це інвестиція в здоров’я вашої сім’ї. При правильному обслуговуванні вона прослужить вам багато років.</p>
+                    </div>
+                </div>
+            </div>			         
+        </div>
+    </div>
+	
+	
+		    <div id="about" class="section-wrap upper z-index13">
+        <div class="section info-section">
+            <div class="section-center clearfix">	
+         <h2>ПРО НАС У ЦИФРАХ</h2><br><br>     			
+                <div class="item work-from"><img src="assets/images/repaired.png" alt=""> </div>
+                <div class="item projects-count"><img src="assets/images/projects-count.png" alt=""> </div>
+                <div class="item repaired"><img src="assets/images/arsistroylogo.png" alt=""> 
+                </div>
+				<div class="item work-from"><img src="assets/images/brigady.png" alt=""> </div>
+				<div class="item projects-count"><img src="assets/images/experience.png" alt=""></div>	
+            </div>
+        </div>
+    </div>
+	
+	
+    <div id="freeconsultation" class="section-wrap upper z-index7">
+        <div class="section form bg3">
+            <div class="form-wrap">
+                <form action="/demo/thank.php" method="post" id="form4" class="consultation-form">
+				<input type="hidden" name="psub" class="send-type" value="Бесплатный замер и консультация - подвал лендинга.">
+                    <div class="title">ЗАЛИШТЕ ЗАЯВКУ
+                        <br>НА БЕЗКОШТОВНУ
+                        <br>КОНСУЛЬТАЦІЮ</div>
+                                       
+                    <div class="input-wrap">
+                        <label><span>Ваше ім'я</span>
+                            <input type="text" required="" name="name" placeholder="Наприклад: Олексій ">
+                        </label>
+                    </div>
+                    <div class="input-wrap">
+                        <label><span>ваш НОМЕР ТЕЛЕФОНУ</span>
+                            <input type="tel" required="" name="phone" placeholder="+38 (___) ___-__-__" class="tel-mask">
+                        </label>
+                    </div>
+                    <input type="submit" value="ОТРИМАТИ КОНСУЛЬТАЦІЮ" class="button">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="contacts" class="section-wrap upper z-index1">
+        <div class="section footer">
+            <div class="section-center clearfix" style="margin-bottom: 70px;">
+                <div class="logo-wrap">
+                    <div class="logo-line"></div><img src="assets/images/logo23.png" alt="" class="logo">
+                </div>
+                <br>
+                <div class="phone"><span style="color:#fff;">E-mail: osmos.com.ua</span><br>
+                    <div class="phone"><a href="tel:+380000000000">+38 (068) 698-91-43 </a>
+                        <p></p>
+                        <div class="phone"><a href="tel:+380000000000">+38 (000) 000-00-01</a>
+                            <p></p>
+                        </div>
+                    </div>
+                    <p></p>
+                    <div class="working-time">Працюємо: з 9 до 20:00<p></p>
+                    </div>
+                    <p></p>
+                    <div class="working-time">Без вихідних<p></p>
+                    </div>
+                </div>
+                <br><br><br>
+                <p></p>
+                <div class="snamistroy">Обирай ECOSOFT!
+				<p></p>
+<p style="font-size: 16px; color: #fff;"><br> &copy;<script>document.write(new Date().getFullYear());</script> «TKD-Friends» – м. Вінниця</p>
+<p><a style="text-decoration: none; color: #fff; font-size: 16px;" href="politics.html" target="_blank">Колись я навчусь</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery-2.1.4.min.js"></script>
+    <script src="assets/js/jquery.maskedinput.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/jquery.validate.min.js"></script>
+    <script src="assets/js/simple-lightbox.min.js"></script>
+    <script src="assets/js/waypoint.min.js"></script>
+    <script src="assets/js/nprogress.js"></script>
+    <script src="assets/js/common.min.js"></script>
+  <script src="assets/js/main-standart.js"></script>
